@@ -254,7 +254,7 @@ class Mafia extends Rooms.RoomGame {
 
 	enableNL: boolean;
 	votelock: boolean;
-    canVote:{[userid: string]: boolean};
+    	canVote:{[userid: string]: boolean};
 	forceVote: boolean;
 	closedSetup: boolean;
 	noReveal: boolean;
